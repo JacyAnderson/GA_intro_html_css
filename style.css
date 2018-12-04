@@ -21,6 +21,33 @@ aside {
 	text-align: left;
 }
 
+/* Nav Styles */
+ul {
+    list-style-type: none;
+    margin: 0 0 20px 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00cccb;
+}
+
+ul > li {
+    float: left;
+}
+
+ul > li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul > li a:hover {
+	background-color: #fff;
+	color: #00cccb
+}	
+
+
 /* Text Wrapper Styles */
 h1 {
 	color: #00cccb;
@@ -32,11 +59,12 @@ h3 {
 
 p, li {
 	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 p {
 	color: #89949c;
+	padding: 0 20px;
 }
 
 li {
@@ -64,5 +92,5 @@ aside h3 {
 aside ol{
 	margin-top: 0;
 	list-style: none;
-	padding-left: 20px;
+	padding-left: 10px;
 }
